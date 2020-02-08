@@ -1,0 +1,126 @@
+body{
+margin:0;
+font-family:"Lucida Grande";
+}
+
+header {
+ 
+ height: 65px;
+ 
+ width: 100%;
+  
+background-color: rgba(34, 49, 52, 0.9);
+  
+ position: fixed;
+  
+top: 0;
+  
+ z-index: 10;
+
+}
+
+a{
+text-decoration:none;
+}
+
+.main{
+height:900px;
+width:1024px;
+}
+
+.center{
+background-image: url(img.jpg);
+width:100%;
+height:75%;
+background-size:fill;
+color:white;
+text-align:center;
+}
+
+.container{
+width:100%;
+padding:0 15px;
+margin: 0 auto;
+height:100%;
+
+}
+ 
+.header-right{
+float:right;
+color:white;
+font-size:20px;
+margin:0 auto;
+padding:20px 10px;
+}
+
+.login{
+padding:0px 10px;
+color:white;
+}
+
+.register{
+padding:0 10px;
+color:white;
+}
+
+.header-left{
+float:left;
+margin: 0 auto;
+padding:0 auto;
+}
+
+h1{
+color:white;
+font-size:30px;
+}
+
+.h2{
+color:white;
+}
+
+.p{
+color:white;
+}
+
+.bottom div{
+width:25%;
+float:left;
+margin:0 auto;
+padding:0 auto;
+}
+
+
+img{
+width: 200px;
+height: 200px;
+padding:30px 10px 20px 20px;
+float:left;
+}
+
+button {
+  padding:5px 10px 10px 30px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  horizontal-align:center;
+}
+
+button:hover {
+background-color: #3e8e41;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  
+}
+
+
+
+
